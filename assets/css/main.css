@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "rapzone";
+    src: url(../font/CoffeCake.ttf);
+}
+@font-face {
+    font-family: "title";
+    src: url(../font/CHERL___.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "rapzone";
+    background: url(../img/bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(0, 92, 84, 0.685); /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(13, 0, 190, 0.685);
+    border-radius: 20px;
+    border: 3px solid rgba(20, 0, 92, 0.719);
+  }
+
+h1, h2 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 35px;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+.main-title {
+    text-decoration: none;
+    font-family: "title";
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+nav {
+    height: 20%;
+    width: 100%;
+    background: black;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    padding: 13px 17px;
+    color: whitesmoke;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.fil-actu {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.actu {
+    width: 20%;
+    border: 2px solid black;
+    box-shadow: 1px 1px 12px 8px black;
+    border-radius: 15px;
+}
+
+.actu img {
+    border-radius: 15px 15px 0 0;
+    height: 50%;
+    width: 100%;
+}
+
+.actu h2 {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.actu hr {
+    border : 2px solid #000000;
+}
+
+.actu p {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.btn a {
+    color: black;
+}
+
+.users-avis {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 50%;
+    width: 80%;
+}
+
+.avis {
+    padding: 15px;
+    height: 63%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px 8px black;
+}
+
+.avis img {
+    margin: 20px 0 0 20px;
+    height: 10%;
+    width: 15%;
+}
+
+.avis h3 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.avis hr {
+    border: 2px solid black;
+}
+
+.avis p {
+    font-size: 1.3rem;
+}
+
+footer {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.589);
+}
+
+footer img {
+    padding-bottom: 20px;
+    height: 60%;
+    width: 10%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
